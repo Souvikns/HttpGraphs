@@ -5,12 +5,9 @@ const handler = nextConnect();
 
 handler
     .get((req, res) => {
-        let { data, graph } = req.query;
+        let { config } = req.query;
         // graph = "line" | "bar"
-        let svgGraph = generateGraph({
-            graph,
-            data
-        });
+        let svgGraph = generateGraph(JSON.stringify(config));
         res.end(svgGraph);
     })
 
