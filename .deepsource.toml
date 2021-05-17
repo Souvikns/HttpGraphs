@@ -1,0 +1,16 @@
+version = 1
+
+test_patterns = ["*.test.jsx"]
+
+exclude_patterns = ["/.next"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = ["react"]
+
+[[transformers]]
+name = "prettier"
+enabled = true
