@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 
 export default () => {
-
-    return <>
-        <h1>HTTP GRAPHS</h1>
+  return (
+    <>
+      <h1>HTTP GRAPHS</h1>
     </>
-}
+  );
+};
