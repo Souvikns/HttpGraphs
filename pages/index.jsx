@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Index = () => {
+const Index = (props) => {
 
     return <h1>{`HTTP Graphs`}</h1>
 }
