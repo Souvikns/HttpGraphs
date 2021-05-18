@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default () => {
+const Index = () => {
 
-    return <>
-        <h1>HTTP GRAPHS</h1>
-    </>
+    return <h1>HTTP Graphs</h1>
 }
+
+export default Index;
