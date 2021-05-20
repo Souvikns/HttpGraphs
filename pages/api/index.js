@@ -7,7 +7,8 @@ handler
     .get((req, res) => {
         let { config } = req.query;
         // graph = "line" | "bar"
-        let svgGraph = generateGraph(JSON.stringify(config));
+        let svgGraph = generateGraph(JSON.parse(config));
+        res.setHeader("content-type", "image/svg+xml");
         res.end(svgGraph);
     })
 
