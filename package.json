@@ -1,13 +1,13 @@
 {
-  "name": "HttpGraphs",
+  "name": "svg-graphs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+    "build": "",
+    "dev": "",
+    "start": ""
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,6 @@
   },
   "homepage": "https://github.com/Souvikns/HttpGraphs#readme",
   "dependencies": {
-    "next": "^10.2.0",
-    "next-connect": "^0.10.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+
   }
 }
