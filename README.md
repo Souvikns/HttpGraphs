@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="./bar-chart.svg" width="300" />
+<img src="./bar-chart.svg" width="200" />
 <br>
 <br>
 HttpGraphs
