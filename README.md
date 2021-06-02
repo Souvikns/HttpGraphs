@@ -2,6 +2,6 @@
 <img src="./bar-chart.svg" width="200" />
 <br>
 <br>
-HttpGraphs
+SVG Graphs
 </h1>
 
