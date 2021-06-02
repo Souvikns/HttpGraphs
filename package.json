@@ -1,6 +1,6 @@
 {
-  "name": "svg-graphs",
-  "version": "1.0.0",
+  "name": "chart.svg",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
