@@ -5,9 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "",
-    "dev": "",
-    "start": ""
+    "doc": "node doc.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +19,10 @@
   },
   "homepage": "https://github.com/Souvikns/HttpGraphs#readme",
   "dependencies": {
-
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.7",
+    "jsdoc-to-markdown": "^7.0.1"
   }
 }
